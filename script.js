@@ -2,8 +2,28 @@ function login(){
     var nome = $('Nome').val()
     var senha = $('Senha').val()
 
-    console.log(nome, senha)
+    if(nome && senha && nome === "anjos" && senha === "9EDB402Ba"){
+        const user ={
+            nome: nome,
+            dataEntrada: new Date(),
+            id: Math.floor(Math.randon() * 100000)
+        };
+        localStorage.setItem("usuario", JSON.stringify(user))
+        window.location.href = ""
+    }else{
+        document.getElementById("error-modal").style.display = "flex"
+        document.getElementById("nome").style.borderBottom = "3px solid red"
+        document.getElementById("senha").style.borderBottom = "3px solid red"
+    }
+    
 }
+function fecharError(){
+    document.getElementById("error-modal").style.display = "none"
+    document.getElementById("nome").style.borderBottom = "2px solid #090909"
+    document.getElementById("senha").style.borderBottom = "2px solid #090909"
+
+}
+
 function showPassword(){
     var input_senha = document.querySelector('#senha')
     var img_eye = document.querySelector('#eye')

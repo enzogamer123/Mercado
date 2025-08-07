@@ -1,0 +1,24 @@
+{
+    "id": 1,
+    "descricao": "Goiabada",
+    "imagem": "",
+    "preco" : 7.0
+},
+{
+    "id": 2,
+    "descricao": "Beijinho",
+    "imagem":"",
+    "preco": 5.0
+},
+{
+    "id": 3,
+    "descricao": "Brigadeiro",
+    "imagem":"",
+    "preco": 5.0
+},
+{
+    "id": 4,
+    "descricao": "Bom-Bom",
+    "imagem":"",
+    "preco": 10.0
+}
