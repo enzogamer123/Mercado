@@ -1,24 +1,26 @@
+[
 {
     "id": 1,
     "descricao": "Goiabada",
-    "imagem": "",
+    "imagem": "../Dados/Imagem/goiabada.jpg",
     "preco" : 7.0
 },
 {
     "id": 2,
     "descricao": "Beijinho",
-    "imagem":"",
+    "imagem":"../Dados/Imagem/beijinho.jpg",
     "preco": 5.0
 },
 {
     "id": 3,
     "descricao": "Brigadeiro",
-    "imagem":"",
+    "imagem":"../Dados/Imagem/brigadeiro.avif",
     "preco": 5.0
 },
 {
     "id": 4,
     "descricao": "Bom-Bom",
-    "imagem":"",
+    "imagem":"../Dados/Imagem/bombom.webp",
     "preco": 10.0
 }
+]
