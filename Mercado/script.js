@@ -2,7 +2,7 @@ function login(){
     var nome = $('Nome').val()
     var senha = $('Senha').val()
 
-    if(nome && senha && nome === "anjos" && senha === "9EDB402Ba"){
+    if(nome && senha && nome === "anjos" && senha === "1234"){
         const user ={
             nome: nome,
             dataEntrada: new Date(),
